@@ -5,20 +5,10 @@ import ListItem from './ListItem';
 
 class LibraryList extends Component {
   renderItem(library) {
-
-   // console.log(library.description);
-    return (
-    // <View>
-    //   <Text>{item.title}</Text>
-    // </View>
-    // );
-
-   <ListItem library={library} />
-    );
+    return  <ListItem library={library} />;  
   }
 
   render() {
-   // console.log(this.props);
     return (
       <FlatList
         data={this.props.libraries}
