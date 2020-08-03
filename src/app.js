@@ -12,7 +12,6 @@ const App = () => {
       <View style={{ flex: 1 }}>
         <Header headerText='Tech Stack' />
         <LibraryList />
-        <Text>Start Here</Text>
       </View>
     </Provider>
   );
