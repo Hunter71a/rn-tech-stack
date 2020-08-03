@@ -7,7 +7,7 @@ class ListItem extends Component {
   render() {
     const { titleStyle } = styles;
     const item = this.props.library.item;
-    console.log(item.title);
+    console.log(item);
     return (
       <CardSection>
         <Text style={titleStyle}>{item.title}</Text>
